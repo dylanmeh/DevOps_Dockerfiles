@@ -5,4 +5,6 @@ RUN apk add curl
 RUN apk add gradle
 RUN apk add openjdk-8
 RUN apk add terraform
-RUN apk add ansible
+RUN apk add python py2-pip
+RUN pip install cffi
+RUN pip install ansible 

@@ -7,4 +7,6 @@ RUN apk add git
 RUN apk add maven
 RUN apk add openjdk8
 RUN apk add terraform
-RUN apk add ansible
+RUN apk add python py2-pip
+RUN pip install cffi
+RUN pip install ansible 
