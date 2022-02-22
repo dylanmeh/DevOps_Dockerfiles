@@ -7,3 +7,4 @@ RUN apk add git
 RUN apk add maven
 RUN apk add openjdk8
 RUN apk add terraform
+RUN apk add ansible
